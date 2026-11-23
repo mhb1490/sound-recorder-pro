@@ -1,4 +1,3 @@
-
 name: Build Sound Recorder Pro APK
 
 on:
@@ -22,8 +21,7 @@ jobs:
           java-version: '17'
 
       - name: Setup Android SDK
-        uses:
-      android-actions/setup-android@v4
+        uses: android-actions/setup-android@v4
         with:
           packages: 'platform-tools'
 
@@ -43,4 +41,4 @@ jobs:
         with:
           name: SoundRecorderPro-APK
           path: app/build/outputs/apk/debug/*.apk
-          
+          if-no-files-found: error
