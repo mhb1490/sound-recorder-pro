@@ -1,0 +1,6 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path name="external_recordings" path="Recordings/" />
+    <files-path name="internal_recordings" path="Recordings/" />
+    <files-path name="legacy_environment" path="environment/" />
+    <files-path name="legacy_internal" path="internal/" />
+</paths>
